@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#playball_wrap {
+  width: 100%;
+  margin: 0 auto;
+  // background: chartreuse;
+}
+.playball_header {
+  width: 100%;
+  height: 100px;
+  // background: #9575cd;
+}
+
+.playball-top-ballCount {
+  float: left;
+  width: 40%;
+  height: 80px;
+  // background: #b7950b;
+}
+
+.playball-top-atBat {
+  float: left;
+  width: 30%;
+  height: 80px;
+  // background: #9a7d0a;
+}
+
+.playball-top-pitcher {
+  float: left;
+  width: 30%;
+  height: 80px;
+  // background: #9a7d0a;
+}
+
+.playball-top-bottom {
+  clear: both;
+  width: 100%;
+  height: 20px;
+  background: #e5ebd0;
+
+  button {
+    margin-left: 20px;
+    background-color: rgb(7, 7, 83);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+    font-size: 1em;
+    text-align: center;
+    &:hover {
+      background-color: rgb(81, 81, 231);
+    }
+  }
+}
+
+.playball_aside {
+  float: left;
+  width: 43%;
+  height: 550px;
+  background: #f1f8e9;
+  .roster_template {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 4px;
+    .roster_title {
+      background: #004d40;
+      color: white;
+      height: 3rem;
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .roster_content {
+      background: white;
+    }
+  }
+}
+
+.roster_title {
+  background: #22b8cf;
+  color: white;
+  height: 4rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playball_section {
+  float: left;
+  width: 57%;
+  height: 550px;
+  background: url(../img/baseball_park3.jpg) no-repeat center;
+  // background-position: 50% 50%;
+  position: relative; // for position distribution in FieldPosition.scss
+  #playball_wrap {
+    display: inline-block;
+  }
+}
+.playball_footer {
+  clear: both;
+  width: 100%;
+  height: 0px;
+  // background: #5e35b1;
+
+  .playball-bottom-pitchAction {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    // background: #b7950b;
+  }
+
+  .playball-bottom-ballInPlay {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    // background: #8b7b37;
+  }
+
+  .playball-bottom-scoreboard {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    // background: #d1ba5e;
+  }
+
+  .playball-bottom-bar {
+    clear: both;
+    width: 100%;
+    height: 0;
+    background: #111110;
+  }
+}
+
+/////////////////////////////
+@media (max-width: 1220px) {
+  #playball_wrap {
+    width: 100%;
+  }
+}
+
+/* screen 0 ~ 550px */
+@media (max-width: 550px) {
+  #playball_wrap {
+    width: 100%;
+    .playball_header {
+      height: 100px;
+    }
+    .playball_aside {
+      float: none;
+      width: 100%;
+      height: 450px;
+    }
+    .playball_section {
+      float: none;
+      width: 100%;
+      height: 500px;
+    }
+    .playball_footer {
+      // height: 500px;
+      display: inline-block;
+      float: none;
+
+      .playball-bottom-pitchAction {
+        width: 50%;
+      }
+      .playball-bottom-ballInPlay {
+        width: 50%;
+        .PlayballBottomPlay-container .PlayballBottomPlay-title {
+          font-size: 1rem;
+        }
+      }
+      .playball-bottom-scoreboard {
+        float: none;
+        width: 100%;
+        height: 200px;
+      }
+      .playball-bottom-bar {
+        float: none;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+      }
+    }
+  }
+}

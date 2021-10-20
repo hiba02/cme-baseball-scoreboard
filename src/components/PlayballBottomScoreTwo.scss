@@ -1,0 +1,75 @@
+.PlayballBottomScoreTwo-container {
+  width: 90%;
+  height: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  // margin-top: 5px;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  // background: #f8f9fa;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+  background: #2d3033;
+
+  .PlayballBottomScoreTwo-htting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background: #2d3033;
+    height: 100%;
+    flex: 2;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(235, 235, 47);
+  }
+
+  ////////////////////////////
+  .PlayballBottomScoreTwo-hitting-number {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    // background: #2d3033
+    flex: 1;
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(235, 235, 47);
+  }
+
+  .PlayballBottomScoreTwo-pitching {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background: rgb(12, 77, 6);
+    flex: 2;
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(235, 235, 47);
+  }
+
+  .PlayballBottomScoreTwo-pitching-number {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    // background: burlywood;
+    flex: 1;
+    height: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(235, 235, 47);
+  }
+
+  ////////////////////////////////////////
+}

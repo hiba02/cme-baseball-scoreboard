@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.createPlayer-container {
+  width: 100%;
+  margin: 0 auto;
+  background: none;
+}
+.createPlayer-header {
+  width: 100%;
+  height: 50px;
+  background: none;
+}
+
+.createPlayer-aside {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background: none;
+
+  .createPlayer-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    border-radius: 4px;
+    overflow: hidden;
+    input::placeholder {
+      color: #777;
+    }
+
+    .createPlayer-title {
+      background: #004d40;
+      color: white;
+      height: 4rem;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .createPlayer-content {
+      background: white;
+      .createPlayer-bats-throws {
+        margin: 0.7rem 0;
+        font-size: 1.125rem;
+        color: #777;
+        margin-left: 0.3rem;
+        padding: 0 0.3rem;
+        label {
+          display: inline-block;
+          padding: 0 0.3rem;
+        }
+      }
+    }
+
+    .createPlayer-buttons {
+      color: black;
+      font-weight: bold;
+      font-family: Overpass, sans-serif;
+      background: rgb(236, 228, 226);
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .createPlayer-submit input {
+        background: rgb(36, 124, 50);
+        justify-content: flex-start;
+        color: rgb(221, 221, 85);
+        cursor: pointer;
+      }
+      .createPlayer-submit input:hover {
+        background: rgb(87, 190, 104);
+        color: rgb(209, 209, 173);
+      }
+    }
+  }
+
+  .createPlayer-form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+    input {
+      background: none;
+      outline: none;
+      border: none;
+      padding: 0.5rem;
+      font-size: 1.125rem;
+      line-height: 1.5;
+      color: #212f3d;
+      &::placeholder {
+        color: #777;
+      }
+    }
+  }
+
+  .createPlayer-reset {
+    svg {
+      margin-top: 15px;
+      font-size: 2.2rem;
+      color: rgb(53, 65, 57);
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    svg:hover {
+      color: rgb(106, 168, 124);
+    }
+  }
+}
+
+.createPlayer-section {
+  float: left;
+  margin-top: 20px;
+  width: 45%;
+  height: 600px;
+  background: none;
+  .roster_template {
+    .roster_title {
+      font-size: 1.5rem;
+      font-weight: normal;
+      border-radius: 5px 5px 0 0;
+      height: 3.9rem;
+      background: #004d40;
+      color: white;
+      // height: 4rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.createPlayer-footer {
+  clear: both;
+  width: 100%;
+  height: 10px;
+  background: none;
+}
+
+.showPlayers_template {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 4px;
+  .showPlayers_title {
+    background: #004d40;
+    color: white;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .showPlayers_content {
+    background: white;
+  }
+}
+
+/////////////////////////////
+@media (max-width: 1220px) {
+  #wrap2 {
+    width: 100%;
+  }
+}
+
+/* screen 0 ~ 768px */
+@media (max-width: 768px) {
+  #wrap2 {
+    width: 100%;
+  }
+}
+
+/* screen 0 ~ 480px */
+@media (max-width: 550px) {
+  #wrap2 {
+    width: 100%;
+  }
+
+  .createPlayer-aside {
+    float: none;
+    width: 100%;
+    height: 300px;
+  }
+  .createPlayer-section {
+    margin-top: 100px;
+    float: none;
+    width: 100%;
+    height: 300px;
+  }
+}
+
+////////////////////////////

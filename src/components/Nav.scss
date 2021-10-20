@@ -1,0 +1,61 @@
+.menu .Nav-title {
+  margin-top: 20px;
+  border-bottom: 1px solid #105834;
+  font-weight: bold;
+}
+
+.menu .Nav-team {
+  margin-top: 10px;
+  background: #79ebb2;
+  font-weight: bold;
+  // border-bottom: 1px solid #105834;
+}
+.menu h4 {
+  margin-top: 30px;
+  font-family: "Bungee Inline", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #105834;
+}
+
+.menu p {
+  font-size: 25px;
+  // font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  position: relative;
+}
+.menu li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #212121;
+  border-bottom: 1px solid #105834;
+  padding: 10px;
+  display: block;
+}
+
+.menu .menu_link {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #212121;
+  border-bottom: 1px solid #105834;
+  padding: 10px;
+  display: block;
+}
+
+.menu li a i {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.menu li a:hover {
+  box-shadow: inset 180px 0 0 0 rgb(196, 196, 105);
+  color: #fff;
+  background: rgba(23, 153, 99, 0.9);
+}
