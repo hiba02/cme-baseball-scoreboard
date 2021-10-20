@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cme-baseball-scoreboard/static/css/main.f1b148a5.chunk.css",
+    "main.js": "/cme-baseball-scoreboard/static/js/main.c5062859.chunk.js",
+    "main.js.map": "/cme-baseball-scoreboard/static/js/main.c5062859.chunk.js.map",
+    "runtime-main.js": "/cme-baseball-scoreboard/static/js/runtime-main.fa528049.js",
+    "runtime-main.js.map": "/cme-baseball-scoreboard/static/js/runtime-main.fa528049.js.map",
+    "static/js/2.99b1f246.chunk.js": "/cme-baseball-scoreboard/static/js/2.99b1f246.chunk.js",
+    "static/js/2.99b1f246.chunk.js.map": "/cme-baseball-scoreboard/static/js/2.99b1f246.chunk.js.map",
+    "index.html": "/cme-baseball-scoreboard/index.html",
+    "precache-manifest.4ea78438fabacfe30268292d767bb42c.js": "/cme-baseball-scoreboard/precache-manifest.4ea78438fabacfe30268292d767bb42c.js",
+    "service-worker.js": "/cme-baseball-scoreboard/service-worker.js",
+    "static/css/main.f1b148a5.chunk.css.map": "/cme-baseball-scoreboard/static/css/main.f1b148a5.chunk.css.map",
+    "static/js/2.99b1f246.chunk.js.LICENSE.txt": "/cme-baseball-scoreboard/static/js/2.99b1f246.chunk.js.LICENSE.txt",
+    "static/media/Playball.scss": "/cme-baseball-scoreboard/static/media/baseball_park3.29605a9c.jpg",
+    "static/media/glove-clipart-6.png": "/cme-baseball-scoreboard/static/media/glove-clipart-6.d57c4039.png",
+    "static/media/Header.scss": "/cme-baseball-scoreboard/static/media/header_baseball4.73e7a65d.jpg",
+    "static/media/hitter-logo.png": "/cme-baseball-scoreboard/static/media/hitter-logo.2fe04e35.png",
+    "static/media/pitcher-logo.png": "/cme-baseball-scoreboard/static/media/pitcher-logo.166b83e8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa528049.js",
+    "static/js/2.99b1f246.chunk.js",
+    "static/css/main.f1b148a5.chunk.css",
+    "static/js/main.c5062859.chunk.js"
+  ]
+}
